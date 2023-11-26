@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CheckMe</title>
+</head>
+
+<body>
+  <ul class="top">
+    <li><a href="#today">Today</a></li>
+    <li><a href="#tomorrow">Tomorrow</a></li>
+    <li><a href="#upcoming">Upcoming</a></li>
+  </ul>
+  <section id="today" class="container">
+    <nav class="nav">
+      <ul>
+        <li><a href="#today">Today</a>
+          <h2>
+            <input type="text" class="todayT add" placeholder="Today">
+            <span onclick="addToday()" class="addbtn">Save</span>
+          </h2>
+          <div class="items">
+            <ul class="today">
+              <li>Meet Agnes<span class="close">&times;</span></li>
+              <li>gym<span class="close">&times;</span></li>
+              <li>Write<span class="close">&times;</span></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+  </section>
+  <section id="tomorrow" class="container">
+    <nav class="nav">
+      <ul>
+        <li><a href="tomorrow">Tomorrow</a>
+          <h2>
+            <input type="text" class="tomorrowT add" placeholder="Tomorrow...">
+            <span onclick="addTom()" class="addbtn">Save</span>
+          </h2>
+          <div class="items">
+            <ul class="tomorrow">
+              <li>Meet Agnes<span class="close">&times;</span></li>
+              <li>Office<span class="close">&times;</span></li>
+              <li>Coffee<span class="close">&times;</span></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <section id="upcoming" class="container">
+    <nav class="nav">
+      <ul>
+        <li><a href="#upcoming">Upcoming</a>
+          <h2>
+            <input type="text" class="upcomT add" placeholder="Upcoming...">
+            <span onclick="addUpcom()" class="addbtn">Save</span>
+          </h2>
+          <div class="items">
+            <ul class="upcom">
+              <li>Pick Grocery<span class="close">&times;</span></li>
+              <li>Plans with Friends<span class="close">&times;</span></li>
+              <li>Book Tickets<span class="close">&times;</span></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <!-- <script src="script.js"></script> -->
+  <script src="new.js"></script>
+</body>
+
+</html>
