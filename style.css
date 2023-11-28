@@ -6,6 +6,7 @@
 }
 body {
  height: 100vh;
+ height: 100dvh;
 }
 .top {
  background-color: #f1c40f;
