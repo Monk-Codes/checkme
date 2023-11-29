@@ -10,27 +10,33 @@ body {
 }
 .video {
  position: fixed;
- background-size: contain;
- filter: blur(7px);
+ background-size: cover;
+ filter: blur(2px);
 }
+
 .top {
+ width: 100%;
  background-color: #f1c40f6f;
  position: fixed;
  overflow: hidden;
  top: 1.1rem;
  z-index: 1;
  left: 50%;
- float: none;
  transform: translate(-50%, -50%);
 }
 .top li {
+ display: flex;
+ position: relative;
+ align-content: center;
+ flex-wrap: wrap;
+ text-align: center;
  float: left;
- padding: 1rem;
+ padding: 1.5rem;
+ justify-content: space-evenly;
 }
 .top li a {
  display: block;
  color: white;
- text-align: center;
  text-decoration: none;
 }
 .container {
