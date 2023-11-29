@@ -35,7 +35,8 @@ To Do List for Today | Tomorrow | Upcoming Days
 * [Acknowledgements](#acknowledgements)
 
 ## About The Project
-  Infinity Image Page Scroll
+![Screenshot (40)](https://github.com/Monk-Codes/checkme/assets/84877191/46e38e51-4221-4954-9b75-31742c902ebf)
+![Screenshot (41)](https://github.com/Monk-Codes/checkme/assets/84877191/9f5cecd9-3e0c-4bcf-b43c-b579ba91c753)
 
 
 Here's why:
